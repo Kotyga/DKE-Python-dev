@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dke-python-dev"
+version = "0.1.0"
+description = ""
+authors = ["Alex <42418433+aiexz@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dke_python_dev"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.1.2"
+fastapi = "^0.88.0"
+SQLAlchemy = "^1.4.45"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
